@@ -3,6 +3,7 @@ import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Aboutme from './components/about'
 import TechStacks from './components/techStacks'
+import Experience from './components/experience'
 import ButtonComponent from './components/button'
 
 import './App.css'
@@ -25,6 +26,7 @@ function App() {
       <Hero/>
       <Aboutme/>
       <TechStacks/>
+      <Experience/>
      </div>
      </div>
     
