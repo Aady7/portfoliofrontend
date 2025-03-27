@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Aboutme from './components/about'
+import TechStacks from './components/techStacks'
 import ButtonComponent from './components/button'
 
 import './App.css'
@@ -23,6 +24,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Aboutme/>
+      <TechStacks/>
      </div>
      </div>
     

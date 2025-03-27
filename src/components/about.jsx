@@ -9,7 +9,7 @@ export default function Aboutme() {
         <div className="w-full lg:w-1/2 md:w-1/2 ">
           <div className="flex items-center justify-center  ">
             <img
-              className="object-cover h-120 w-120 rounded-3xl lg:mt-0 lg:pb-50 "
+              className="object-cover h-120 w-120 rounded-3xl lg:mt-0 lg:pb-20 "
               src={aboutme2}
               alt="aadi"
             />
@@ -17,7 +17,7 @@ export default function Aboutme() {
         </div>
         <div className="w-full lg:w-1/2 md:w-1/2 lg:mt-10 ">
           <div className="flex justify-center ">
-            <p className="text-neutral-300 text-xl tracking-tighter text-left">
+            <p className="text-neutral-300 text-xl tracking-tighter text-left max-w-xl py-10 ">
               {AboutMeConten}
             </p>
           </div>
