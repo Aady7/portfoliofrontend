@@ -9,7 +9,7 @@ import { SiMysql } from "react-icons/si";
 export default function TechStacks() {
   return (
     <div className="border-b border-neutral-800 pb-24 ">
-      <h1 className="text-center my-20 lg:text-9xl text-7xl  font-thin ">
+      <h1 className="text-center my-20 sm:text-7xl text-5xl  font-thin ">
         Tech Stacks
       </h1>
       <div className=" flex flex-wrap justify-center item-center gap-4">

@@ -2,7 +2,7 @@ import { experienceContent } from "../constants/constants";
 export default function Experience() {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className=" mt-20 mb-10  text-center text-5xl  font-thin ">Experience</h1>
+      <h1 className=" mt-20 mb-10  text-center text-5xl sm:text-7xl font-thin ">Experience</h1>
       <div className="flex flex-wrap">
         {experienceContent.map((experience, index) => (
           <div key={index} className="w-full lg:w-1/2 md:w-1/2 lg:mt-10 ">
