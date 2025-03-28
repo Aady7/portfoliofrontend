@@ -84,8 +84,34 @@ export const experienceContent = [
  EXTRA-CURRICULAR ACTIVITIES
  Debate Participant
  Participated in numerous debate competitions at school and district levels.
+
  Achieved podium finishes in many competitions, showcasing strong argumentative and public speaking skills.
 T: 8299512934 E: pratapadityasingh2703@gmail.com Address: Near Radar , Gayatri Nagar , Khorabar
  Urf Soobabazar , Gorakhpur, Uttar Pradesh -273008`;
+
+
+ export const FAQDATA = [
+  {
+    question: "What is your name?",
+    answer: "My name is ChatGPT."
+  },
+  {
+    question: "What is JavaScript?",
+    answer: "JavaScript is a programming language used to create dynamic content on websites."
+  },
+  {
+    question: "How does React work?",
+    answer: "React creates a virtual DOM and updates only the changed parts efficiently."
+  },
+  {
+    question: "What is an API?",
+    answer: "An API (Application Programming Interface) allows different software applications to communicate with each other."
+  },
+  {
+    question: "What is Node.js?",
+    answer: "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+  }
+];
+
 
   

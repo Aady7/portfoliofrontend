@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
     return(
-        <nav className="mb-20 flex items-cnter justify-between py-6">
+        <nav className="mb-20 flex items-cnter justify-between py-6 top-0">
         
 
             <div className="flex items-center flext-shrink-0 text-2xl mx-0  ">

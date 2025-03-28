@@ -5,7 +5,8 @@ import Aboutme from './components/about'
 import TechStacks from './components/techStacks'
 import Experience from './components/experience'
 import ButtonComponent from './components/button'
-//import Chatbot from './components/chatbot'
+import Chatbot from './components/chatbot'
+import useChatbot from './hooks/usechatbot'
 
 
 import './App.css'
@@ -29,6 +30,7 @@ function App() {
       <Aboutme/>
       <TechStacks/>
       <Experience/>
+      <Chatbot/>
    
      </div>
      </div>
