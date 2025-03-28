@@ -23,8 +23,8 @@ export default function ChatBot() {
                 <div className="overflow-auto max-h-96 p-3 space-y-2">
                     {messages.map((message, index) => (
                         <div key={index} className="flex flex-col ">
-                            <div className="text-neutral-400 font-bold ">{message.role}</div>
-                            <div className="text-neutral-300 text-left ">{message.content}</div>
+
+                            <div className={` ${message.role=="user"?"text-right text-neutral-300":"text-left text-neutral-200"}`}>{message.content}</div>
                         </div>
                     ))}
                 </div>
