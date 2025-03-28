@@ -9,8 +9,7 @@ const useChatbot = () => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const groq =  new Groq({ apiKey: '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' , dangerouslyAllowBrowser: true })
-
+ 
   const handleInputChange = (e) => {
     e.preventDefault();
     setInput(e.target.value);

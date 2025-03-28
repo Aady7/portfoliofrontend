@@ -18,22 +18,24 @@ export default function ChatBot(){
     }
    
     return(
-        <div className=" border-4 border-neutral-700 rounded-2xl p-5 w-1/2 ">
-        <div className="flex flex-col h-full">
+       
+        <div className=" border-4 border-neutral-700 rounded-2xl p-5 w-1/2 items-center justify-center mx-auto mb-20 mt-20  ">
+        <div className="flex flex-col h-full  justify-between ">
+        <h2 className=" align-middle text-3xl my-1 text-neutral-400  itme-center ">Chat with me</h2>
         {messages.map((messages,index)=>(
-            <div className="flex flex-col mb-4" key={index}>
-                <div className="text-neutral-100 font-bold">{messages.role}</div>
-                <div className="text-neutral-400">{messages.content}</div>
+            <div className="flex flex-col flex-wrap   h-full " key={index} >
+                <div className="text-neutral-400 font-bold text-left">{messages.role}</div>
+                <div className="text-neutral-300 text-left">{messages.content}</div>
             </div>
         )
             
         )}
-        <div className="flex flex-wrap m-2">
-            <div className="w-4/5 flex flex-col justify-center items-between">
-            <input className="text border-neutral-500  border-2 rounded-3xl " onChange={handleInputChange} value={input}></input>
+        <div className="flex flex-wrap  ">
+            <div className="w-4/5 flex flex-wrap  flex-col justify-center items-between ">
+            <input className="text border-neutral-500  border-2 rounded-3xl py-3 " onChange={handleInputChange} value={input}></input>
             </div>
-            <div className="w-1/5 flex justify-center items-center">
-            <Button className="bg-neutral-500 text-neutral-100 rounded-3xl p-2 hover:bg-neutral-400 hover:text-neutral-900 transition duration-300 ease-in-out" onClick={sendMessage}> Send</Button>
+            <div className="w-1/5 flex justify-center items-center ">
+            <Button className="bg-neutral-500 text-neutral-100 rounded-3xl pl-4 pr-4 py-3 text-xl hover:bg-neutral-400 hover:text-neutral-900 transition duration-300 ease-in-out" onClick={sendMessage}> Send</Button>
             </div>
         </div>
 
@@ -41,6 +43,7 @@ export default function ChatBot(){
         </div>
 
         </div>
+       
     )
 
 }
