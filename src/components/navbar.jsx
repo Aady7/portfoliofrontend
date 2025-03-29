@@ -18,7 +18,7 @@ export default function Navbar() {
            </div>
             <div className='flex items-center justify-between gap-4 lg:gap-8 text-2xl' >
             <a href='https://www.linkedin.com/in/aditya-pratap-singh-427211216/' target='_blank' rel='noopener noreferrer'>
-            <FaLinkedin  className='lg:h-15 lg:w-15 '/>
+            <FaLinkedin  className='lg:h-15 lg:w-15   '/>
             </a>
             <a href='https://github.com/Aady7?tab=overview&from=2023-12-01&to=2023-12-31' target='_blank' rel='noopener noreferrer'>
             <FaGithub className='lg:h-15 lg:w-15'/>  
