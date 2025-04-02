@@ -4,7 +4,7 @@ import Hero from './components/hero'
 import Aboutme from './components/about'
 import TechStacks from './components/techStacks'
 import Experience from './components/experience'
-import ButtonComponent from './components/button'
+
 import Chatbot from './components/chatbot'
 import useChatbot from './hooks/usechatbot'
 
